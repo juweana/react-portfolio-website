@@ -1,0 +1,134 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+.about-title {
+  position: relative;
+}
+.about-title h1 {
+  padding: 0px 30px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.about-section {
+  display: flex;
+  gap: 80px;
+}
+.about-left {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.about-pera {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 22px;
+  font-weight: 500px;
+}
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-skill {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  transition: 0.3s;
+}
+.about-skill p {
+  min-width: 150px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.about-skill hr {
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 4px;
+  border-color: 50px;
+  background: linear-gradient(267deg, #ff9d09 0.3%, #e96d00 100%);
+}
+.about-certifications {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+.about-certification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s;
+}
+.about-certification h1 {
+  font-size: 30px;
+  font-weight: 500;
+  background: linear-gradient(267deg, #ff9d09 -5.3%, #e96d00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-certification p {
+  min-width: 120px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.about-skill:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.about-certification:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+@media (max-width: 768px) {
+  .about {
+    gap: 80px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .about-title h1 {
+    font-size: 40px;
+    padding: 0;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .about-left img {
+    width: 500px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-pera {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .about-skill {
+    gap: 20px;
+    align-items: center;
+  }
+  .about-skill p {
+    font-size: 20px;
+  }
+  .about-skill hr {
+    height: 4px;
+  }
+  .about-certifications {
+    justify-content: space-between;
+    gap: 60px;
+  }
+  .about-certification h1,
+  .about-certification p {
+    font-size: 19px;
+    align-items: center;
+    text-align: center;
+  }
+}
