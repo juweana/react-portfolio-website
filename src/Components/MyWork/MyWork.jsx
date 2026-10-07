@@ -18,6 +18,7 @@ const MyWork = () => {
               rel="noopener noreferrer"
             >
               <img src={work.w_img} alt={work.w_name || "Project Image"} />
+              <p>{work.w_name}</p>
             </a>
           );
         })}
