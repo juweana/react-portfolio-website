@@ -90,7 +90,7 @@
 }
 @media (max-width: 768px) {
   .about {
-    gap: 80px;
+    gap: 10px;
     margin: 50px 70px;
     align-items: start;
   }
@@ -102,10 +102,7 @@
     flex-direction: column;
   }
   .about-left img {
-    width: 500px;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+    display: none;
   }
   .about-pera {
     font-size: 18px;

@@ -5,7 +5,8 @@
 }
 body {
   height: 100vh;
-  background: #161513;
+
   color: white;
   font-family: "outfit";
+  background-color: #0b0b0b;
 }
