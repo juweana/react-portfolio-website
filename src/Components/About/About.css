@@ -90,9 +90,11 @@
 }
 @media (max-width: 768px) {
   .about {
-    gap: 10px;
-    margin: 50px 70px;
+    gap: 30px;
+    margin: 50px 20px;
     align-items: start;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
   }
   .about-title h1 {
     font-size: 40px;
@@ -119,8 +121,9 @@
     height: 4px;
   }
   .about-certifications {
-    justify-content: space-between;
-    gap: 60px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
   }
   .about-certification h1,
   .about-certification p {

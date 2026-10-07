@@ -56,8 +56,10 @@
 @media (max-width: 768px) {
   .mywork {
     align-items: start;
-    gap: 50px;
-    margin: 50px 70px;
+    gap: 40px;
+    margin: 50px 20px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
   }
   .mywork-title h1 {
     font-size: 40px;
@@ -70,6 +72,7 @@
   .mywork-container {
     grid-template-columns: 1fr;
     gap: 20px;
+    width: 100%;
   }
   .mywork_showmore {
     padding: 20px 40px;

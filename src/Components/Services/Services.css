@@ -64,8 +64,9 @@
 @media (max-width: 768px) {
   .services {
     align-items: start;
-    gap: 70px;
-    margin: 20px 70px;
+    gap: 50px;
+    margin: 20px;
+    width: calc(100% - 40px);
   }
   .services-title h1 {
     padding: 0;
@@ -91,7 +92,8 @@
     width: 20px;
   }
   .services-container {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    width: 100%;
   }
 }
